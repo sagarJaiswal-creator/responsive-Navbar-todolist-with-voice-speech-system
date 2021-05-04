@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="navBar2.css" />
+    <!-- <link rel="stylesheet" href="./fontawesome/css/all.css" /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Grandstander:ital,wght@0,400;0,600;1,721&family=Syne+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>navBar2</title>
+  </head>
+  <body>
+    <nav>
+      <div id="logo">
+        <h1>LOGO</h1>
+      </div>
+
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+
+      <div id="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+    </nav>
+    <section>
+      <input
+        class="user-input content"
+        type="text"
+        placeholder="Enter list item here"
+      />
+      <button class="mic">
+        <i class="fas fa-microphone-alt"></i>
+      </button>
+
+      <button id="addBtn">
+        <i class="fas fa-plus-square"></i>
+      </button>
+    </section>
+
+    <div class="list-items">
+      <ul class="todo-list">
+        <div class="todo">
+          <li>noooooo</li>
+          <button class="check"><i class="fas fa-check"></i></button>
+          <button class="deleteBtn check">
+            <i class="far fa-trash-alt"></i>
+          </button>
+        </div>
+        <div class="todo">
+          <li>heyy</li>
+          <button class="check"><i class="fas fa-check"></i></button>
+          <button class="deleteBtn check">
+            <i class="far fa-trash-alt"></i>
+          </button>
+        </div>
+        <div class="todo">
+          <li>hello</li>
+          <button class="check"><i class="fas fa-check"></i></button>
+          <button class="deleteBtn">
+            <i class="far fa-trash-alt"></i>
+          </button>
+        </div>
+        <div class="todo check">
+          <li>GG</li>
+          <button class="check"><i class="fas fa-check"></i></button>
+          <button class="deleteBtn"><i class="far fa-trash-alt"></i></button>
+        </div>
+      </ul>
+    </div>
+
+    <script src="navBar2.js"></script>
+  </body>
+</html>
